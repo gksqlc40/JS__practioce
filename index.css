@@ -1,7 +1,12 @@
 body {
-  background-color: peru;
+  background-color: white;
 }
 
 h1 {
-  color: white;
+  color: #334488;
+  transition: color 1s ease-in-out;
+}
+
+.clicked {
+  color: red;
 }
