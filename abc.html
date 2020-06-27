@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+              nightDayHandler(){
+             const target =
+                document.querySelector('body');
+                if(this.value === 'night'){
+                target.style.backgroundColor = 'black';
+                target.style.color = 'powderblue ';
+                this.value = 'day';
+
+      }
+                else{
+                target.style.backgroundColor = 'white';
+                target.style.color ='black';
+                this.value = 'night'; }
+            }
+    </script>
+  </head>
+  <body>
+    <h1>Java Script</h1>
+
+    <input id="night_day" value="night" type="button" onclick="" />
+  </body>
+</html>
