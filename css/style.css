@@ -1,0 +1,30 @@
+@import "reset.css";
+
+.index_1__header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(85, 85, 226);
+}
+
+.header__index {
+  font-size: 50px;
+  text-align: center;
+  width: 40%;
+}
+
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  font-size: 40px;
+  align-items: center;
+  width: 40%;
+  display: none;
+}
+
+.toggle {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
